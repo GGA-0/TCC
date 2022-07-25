@@ -43,9 +43,9 @@
                     <p class="recuo" style="text-align: left;">Medicação:</p>
                     <input type="text" name="Medicacao" maxlength="255" autofocus>
                     <p></p>
-
-                    <input type="submit" value="Salvar">
-                    <input type="reset" value="limpar">
+                    <br>
+                    <input type="submit" value="Salvar" style="height:5vh; width: 60vh">
+                    <input type="reset" value="limpar" style="height:5vh; width: 60vh">
                 </form>
             </div>
         </div>
