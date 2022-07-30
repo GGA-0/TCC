@@ -1,0 +1,28 @@
+
+#menu-h ul{
+    list-style: none;
+    padding: 0;
+    background-color: rgb(133, 133, 141);
+
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover{
+    background-color: #2ddf74;
+}
+
+#menu-h ul li:last-child a{
+    float: right;   
+    background-color: #2ddf74   ;
+}
