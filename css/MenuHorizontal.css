@@ -19,10 +19,10 @@
 }
 
 #menu-h ul li a:hover{
-    background-color: #2ddf74;
+    background-color: var(--verde-principal);
 }
 
 #menu-h ul li:last-child a{
     float: right;   
-    background-color: #2ddf74   ;
+    background-color: var(--verde-principal);
 }

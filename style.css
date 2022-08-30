@@ -6,6 +6,10 @@
     font-family:'Paytone One', Helvetica, sans-serif;
 }
 
+:root{
+    --verde-principal: #2ddf74;
+}
+
 main{
     height: 98vh;
     width: auto;
@@ -15,12 +19,12 @@ main{
 input{
     border-radius: 4px;
     height: 20px;
-    border-color: #2ddf74;
+    border-color: #616161;
     box-shadow: none;
 }
 
 .heading1{
-    color: #2ddf74;
+    color: var(--verde-principal);
     font-weight: bolder;
 }
 .heading2{
@@ -34,7 +38,7 @@ input{
 
 .button1{
     border: 2px solid white;
-    background-color: #2ddf74; 
+    background-color: var(--verde-principal); 
     color: white;
     padding: 20px 42px;
     text-align: center;
@@ -48,7 +52,7 @@ input{
 .button2{
     background-color: white; 
     border: none;
-    color: #2ddf74;
+    color: var(--verde-principal);
     padding: 20px 42px;
     text-align: center;
     text-decoration: none;
