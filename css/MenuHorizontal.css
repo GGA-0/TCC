@@ -25,4 +25,8 @@
 #menu-h ul li:last-child a{
     float: right;   
     background-color: var(--verde-principal);
+    width: 47px;
+    text-align: center;
+    padding-left: 18px;
+
 }
